@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <title>Projeto-login</title>
+    <link rel="stylesheet" href="estilos/mq.css">
+    <title>login</title>
 </head>
 <body>
     <main>
         <section>
-            <picture>
-            </picture>
-            <form action="cadastro.php" method="post">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <div>
-                    <label for="iemail"><img src="https://img.icons8.com/?size=100&id=84020&format=png&color=ffffff" alt="user.icon"></label>
-                    <input type="email" name="email" id="iemail" placeholder="seu e-mail">
-                </div>
-                <div>
-                    <label for="isenha"><img src="https://img.icons8.com/?size=100&id=85161&format=png&color=ffffff" alt="senha.icon"></label>
-                    <input type="current-password" name="senha" id="isenha" placeholder="Sua senha">
-                </div>
-                <input id="entrar" type="submit" value="Entrar">
-                <input id="esqueci" type="button" value="Esqueci a senha">
-            </form>
+            <div id="image">
+            </div>
+            <div id="form">
+                <form action="cadastro.php" method="post">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                    <div>
+                        <label for="iemail"><img src="https://img.icons8.com/?size=100&id=84020&format=png&color=ffffff" alt="user.icon"></label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail">
+                    </div>
+                    <div>
+                        <label for="isenha"><img src="https://img.icons8.com/?size=100&id=85161&format=png&color=ffffff" alt="senha.icon"></label>
+                        <input type="current-password" name="senha" id="isenha" placeholder="Sua senha">
+                    </div>
+                    <input id="entrar" type="submit" value="Entrar">
+                    <a href="#" id="esqueci">Esqueci a senha<img src="https://img.icons8.com/?size=100&id=87586&format=png&color=2f6664" alt=""></a>
+                </form>
+            </div>
         </section>
     </main>
 </body>

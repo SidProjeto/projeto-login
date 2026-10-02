@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+    section {
+        width: 80vw;
+        height: 40vw;
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease;
+    }
+    div#image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div#form {
+        float: right;
+        width: 65%;
+        margin: 0px;
+        padding: 10px;
+    }
+    form > div > input {
+        width: 90%;
+    }
+}
+
+@media  screen and (min-width: 993px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+    section {
+        width: 900px;
+        height: 350px;
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease;
+    }
+    div#image {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    div#form {
+        float: left;
+        width: 50%;
+        height: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+    form > div > input {
+        width: 90%;
+    }
+}
