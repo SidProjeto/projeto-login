@@ -32,7 +32,7 @@
     }
     section {
         width: 900px;
-        height: 350px;
+        height: 380px;
         transition: width 0.3s, height 0.3s;
         transition-timing-function: ease;
     }
@@ -50,5 +50,11 @@
     }
     form > div > input {
         width: 90%;
+    }
+    form > h1 {
+        font-size: 2em;
+    }
+    form > p {
+    font-size: 1.1em;
     }
 }

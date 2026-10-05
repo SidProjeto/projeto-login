@@ -26,7 +26,7 @@ main {
 section {
     position: absolute;
     width: 300px;
-    height: 570px;
+    height: 580px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -34,7 +34,7 @@ section {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
-    transition: width 0.3s, height 0.3s;
+    transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
 }
 div#image {
@@ -43,7 +43,7 @@ div#image {
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 240px;
 
 }
 
@@ -60,32 +60,29 @@ form > h1 {
 }
 form > p {
     margin-bottom: 10px;
-    text-align: justify;
-    font-size: 0.95em;
+    text-align: center;
+    font-size: 0.8em;
 }
 form > div {
-    margin: auto;
+    display: block;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 3px;
-    text-align: center;
     background-color: var(--lilas);
 }
 form > div > input {
     border-radius: 10px;
     border-color: transparent;
     background-color: #68dad6;
-    height: 30px;
-    width: 80%;
+    height: 40px;
+    width: 85%;
 }
 div > input:focus {
     background-color: white;
 }
-div  img {
-    max-width: 35px;
-    max-height: 35px;
-    vertical-align: middle;
+div > i.material-icons{
+    color: white;
 }
 input#entrar {
     margin: auto;
@@ -96,6 +93,7 @@ input#entrar {
     color: white;
     margin-bottom: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 input#entrar:hover {
     background-color: #2f6664;
@@ -112,11 +110,14 @@ a#esqueci {
    justify-content: center;
    align-items: center;
 }
-a#esqueci > img {
+a#esqueci > i{
     margin-left: 10px;
-    height: 20px;
-    width: 20px;
+    font-size: 20px;
 }
 a#esqueci:hover {
     background-color: #68dad6;
+}
+i.material-icons {
+    vertical-align: middle;
+    font-size: 35px;
 }

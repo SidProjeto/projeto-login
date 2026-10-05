@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mq.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>login</title>
 </head>
 <body>
     <main>
         <section>
-            <div id="image">
-            </div>
+            <div id="image"></div>
             <div id="form">
-                <form action="cadastro.php" method="post">
+                <form action="cadastro.php" method="post" autocomplete="on">
                     <h1>Login</h1>
                     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                     <div>
-                        <label for="iemail"><img src="https://img.icons8.com/?size=100&id=84020&format=png&color=ffffff" alt="user.icon"></label>
-                        <input type="email" name="email" id="iemail" placeholder="seu e-mail">
+                        <i class="material-icons">person</i>
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" maxlength="30" required>
                     </div>
                     <div>
-                        <label for="isenha"><img src="https://img.icons8.com/?size=100&id=85161&format=png&color=ffffff" alt="senha.icon"></label>
-                        <input type="current-password" name="senha" id="isenha" placeholder="Sua senha">
+                        <i class="material-icons">vpn_key</i>
+                        <label for="isenha"></label>
+                        <input type="current-password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
                     </div>
                     <input id="entrar" type="submit" value="Entrar">
-                    <a href="#" id="esqueci">Esqueci a senha<img src="https://img.icons8.com/?size=100&id=87586&format=png&color=2f6664" alt=""></a>
+                    <a href="esqueci.html" id="esqueci">Esqueci a senha<i class="material-icons">email</i></a>
                 </form>
             </div>
         </section>
