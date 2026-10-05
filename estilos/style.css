@@ -82,6 +82,7 @@ div > input:focus {
     background-color: white;
 }
 div > i.material-icons{
+    
     color: white;
 }
 input#entrar {
