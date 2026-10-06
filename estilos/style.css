@@ -21,7 +21,6 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
-    
 }
 section {
     position: absolute;
@@ -82,7 +81,6 @@ div > input:focus {
     background-color: white;
 }
 div > i.material-icons{
-    
     color: white;
 }
 input#entrar {
